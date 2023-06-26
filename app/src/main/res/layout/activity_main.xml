@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design"
+    tools:context=".MainActivity">
+
+    <!--Button for playing audio-->
+
+    <ImageView
+        android:id="@+id/ninad_logo"
+        android:layout_width="128dp"
+        android:layout_height="148dp"
+        android:src="@drawable/ninadlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ninad_logo"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
+        android:text="Welcome!!"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ninad_logo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="206dp"
+        android:layout_height="161dp"
+        android:layout_below="@+id/text_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:padding="40dp"
+        android:src="@drawable/ic_baseline_mic_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ninad_logo" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/idBtnPlay"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Play Audio file"-->
+<!--        android:textAllCaps="false"-->
+<!--        tools:layout_editor_absoluteX="149dp"-->
+<!--        tools:layout_editor_absoluteY="418dp" />-->
+
+    <!--Button for pausing the audio-->
+<!--    <Button-->
+<!--        android:id="@+id/idBtnPause"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/idBtnPlay"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Pause Audio"-->
+<!--        android:textAllCaps="false" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

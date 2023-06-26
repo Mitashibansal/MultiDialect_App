@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/design"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/ninadlogo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ninadlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096">
+
+    </ImageView>
+
+    <!-- TextView for heading -->
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ninadlogo"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+
+    <!-- Edit text for email -->
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/text_login"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_placeholder"
+        android:hint="Enter your Email"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <!-- Edit text for password -->
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/login_email"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_placeholder"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <!-- Button for Login with text "Login" -->
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round_btn"
+        android:text="Login" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btSkip"-->
+    <!--        android:layout_width="140dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/text_register"-->
+    <!--        android:layout_marginLeft="250dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:background="@drawable/round_btn"-->
+    <!--        android:text="Skip" />-->
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginBottom="20dp"
+        android:text="New User? Register here!"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>

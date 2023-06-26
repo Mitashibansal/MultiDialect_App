@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/design"
+    tools:context=".RegisterActivity">
+    <!-- TextView for heading -->
+
+
+    <ImageView
+        android:id="@+id/ninadlogo"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ninadlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ninadlogo"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+
+    <!-- Edit text for email -->
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/text_register"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_placeholder"
+        android:hint="Enter your Email"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <!-- Edit text for password -->
+
+    <!-- Button for Login with text "Login" -->
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/register_email"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_placeholder"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/register_password"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_placeholder"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_password"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/round_btn"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_marginBottom="5dp"
+        android:text="Existing User? Login here!"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
