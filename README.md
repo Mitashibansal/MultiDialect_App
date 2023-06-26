@@ -1,18 +1,36 @@
-<!-- # Soil_Moisture_Quality
+# Multilingual Dialect Application
 ## Table of Content
   * [Aim](#aim)
   * [Overview](#overview)
-  * [Novelty & Uniqueness](#novelty-&-uniqueness)
-  * [Technology used](#technology-used)
+  *  [Technology used](#technology-used)
+  * [Novelty And Uniqueness](#novelty-and-uniqueness)
   * [Results](#results)
   
 ## Aim:
-Current methods for sensing soil moisture are problematic -- buried sensors are susceptible to salts in the substrate and require specialised hardware for connections, while thermal imaging cameras are expensive and can be compromised by climatic conditions such as sunlight intensity, fog, and clouds.
+To create to a platform / application that could  understand the dialect of a native Indian language.
+
 ## Overview:
- * App determine moisture content based on a standard image/ video by analysing the differences in soil colour to determine moisture content. 
- * An artificial neural network (ANN) /machine learning software can be trained to recognise different soil moisture levels under different sky conditions. This monitoring system could potentially be trained to recognise the specific soil conditions of any location, allowing it to be customised for each user and updated for changing climatic circumstances, ensuing maximum accuracy. 
- * This app may be a promising  tool for improved irrigation technologies in agriculture in terms of cost, availability and accuracy under changing climatic conditions.
-## Novelty & Uniqueness:
+ * India is a nation with loads of popular languages and its dialects.
+ * Most voice assistants or search engines work in  only limited number of languages which do not  provide Indian native support.
+ * Almost 27 % of Indians are uneducated or not  familiar with popular languages such as English and  Hindi.
+ * 72% of internet users prefer to use their native  language
+ * The current work allows people to interact in their  mother tongue.
+
+## Technology used:
+* Android Studio
+* Android Lollipop
+* Java
+* Firebase
+* Python
+* Python NLP libraries
+* Datasets of Indian languages and Dialects
+* Google APIs
+* Free TTS in Java
+* iNLTK library
+* Indic NLP library
+* VS Code
+    
+## Novelty And Uniqueness:
 ```
 📱 Application
 ├─ 🙌User Friendly
@@ -21,17 +39,9 @@ Current methods for sensing soil moisture are problematic -- buried sensors are 
 ├─ 📈Offline Mode 
 └─ ⚡Security
 ```
-## Technology used:
-* Flutter
-* Sensors
-* Java
-* Mobile Net
-* Python
-* Datasets of Soil Images
-* Node JS 
-* ANN ML models
-* Google  Collab
-* VS Code 
+
 ## Results:
-https://user-images.githubusercontent.com/84284893/211194862-34b56af9-c51f-48cd-abcb-6a0701682546.mp4 -->
+
+https://github.com/Mitashibansal/MultiDialect_App/assets/84284893/a465db53-f338-45e8-a184-429970b562ef
+
 
